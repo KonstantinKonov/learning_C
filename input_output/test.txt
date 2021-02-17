@@ -1,0 +1,3 @@
+total 4
+-rw-rw-r-- 1 konstantin konstantin 62 дек 20 13:34 read_vector.c
+-rw-rw-r-- 1 konstantin konstantin  0 дек 20 13:36 test.txt

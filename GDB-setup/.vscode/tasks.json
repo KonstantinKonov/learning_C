@@ -1,0 +1,33 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "C/C++: gcc build",
+			"command": "/usr/bin/gcc",
+			"args": [
+				"-Wall",
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}/${fileBasenameNoExtension}"
+			],
+			"options": {
+				"cwd": "/usr/bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		},
+		{
+			"type": "shell",
+			"label": "C/C++ run",
+			"command": "./${fileBasenameNoExtension}",
+			"args": [],
+			"options": {},
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}
